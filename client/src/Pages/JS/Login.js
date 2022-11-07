@@ -22,6 +22,7 @@ export default function Login(props) {
         return res.json();
       })
       .then((res) => {
+        console.log(res);
         if (res.ans === "") {
           props.setUser(inputs.username);
         } else setErrLbl(res.ans);
