@@ -1,0 +1,13 @@
+{
+  "name": "dnd-site",
+  "version": "1.0.0",
+  "description": "A site to replace roll20",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "startclient": "cd client && npm start",
+    "startserver": "cd server && npm start"
+  },
+  "author": "Ben Timam",
+  "license": "ISC"
+}
